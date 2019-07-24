@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+
+/* CSS Document */
+body {
+	background-color: #f9fafc;
+	font-family: 'Open Sans';
+  	font-style: normal;
+  	font-weight: 800;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	color: #69696a;
+	margin-top: 30px;
+	margin-bottom: 12%;
+}
+button {
+	background-color: #000000;
+	color: #f9fafc;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	
+}
+.chirpus {
+	color: #000000;
+	margin-left: 20px;
+	flex-basis: 60%;
+}
+#scroll {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 200px;
+	
+}
+.scroll {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+#hire {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: -10px;
+	margin-right: 5px;
+}
+div {
+	margin-right: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+p {
+	color: #69696a;
+	width: 490px;
+	margin-left: 20px;
+	border-left: 3px solid #69696a;
+	padding-left: 20px;
+}
+h1 {
+	margin-left: 20px;
+}
+
+/* Circles */
+.circle {
+    border-radius: 50%/50%; 
+}
+#pink {
+	background-color: rgba(247, 136, 167, 0.6);
+	margin-top: -15%;
+	margin-left: 63%;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	z-index: 2;
+}
+#purple {
+	background-color: rgba(207, 130, 213, 0.6);
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 83%;
+	margin-top: -12%;
+}
+#orange {
+	background-color: rgba(247, 193, 162, 0.7);
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	float: right;
+	margin-left: 79%;
+	margin-top: -3%;
+	z-index: 3;
+}
+@media only screen and (max-width: 768px) {
+nav {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	color: #69696a;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#hire {
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 10px;
+	margin-right: 0px;
+}	
+.chirpus {
+	margin-right: 56%;
+	margin-top: 10px;
+	color: #000000;
+	margin-left: 10px;
+}	
+div {
+	margin-right: 0px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+}	
+.circle {
+    visibility: hidden; 
+	margin-left: 0;
+}	
+#scroll {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 10px;
+	width: 100%;
+	align-content: center;
+}		
+.scroll {
+		margin-left: 0px;
+	}	
+p {
+	color: #69696a;
+	width: 95%;
+	margin-left: 0px;
+	border-left: 3px solid #69696a;
+	padding-left: 15px;
+	margin-top: -8px;
+}	
+h1 {
+	margin-left: 0px;	
+	}	
+#pink, #purple, #orange {
+	margin: auto 0;	
+	width: 0;
+	height: 0;
+	}
+}
